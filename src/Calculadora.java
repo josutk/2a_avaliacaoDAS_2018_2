@@ -6,7 +6,10 @@ public class Calculadora {
 	}
 
 	public double calculaRendimento(int i, int j, double d) {
-		return 13.97;
+		double taxa = convertTaxa(d);
+		double c = convertDias(i);
+		double result = c*taxa*j;
+		return result;
 		
 	}
 
