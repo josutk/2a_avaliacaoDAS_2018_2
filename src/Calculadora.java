@@ -21,4 +21,8 @@ public class Calculadora {
 		return (j /100);
 	}
 
+	public double calculaImposto(int i, int j, double d) {
+		return 3.14;
+	}
+
 }
